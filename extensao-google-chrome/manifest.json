@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
     "version": "0.0.1",
-    "name": "Anotações",
-    "description": "Extensão para anotações",
-    "author": "Renan Tescaro",
+    "name": "Filtragem",
+    "description": "Extensão para site tudo gostoso",
+    "author": "Esteffanys",
     "browser_action": {
-   	 "default_title": "Anotações",
+   	 "default_title": "Filtragem",
    	 "default_popup": "index.html",
    	 "default_icon": "icone.png"
     },

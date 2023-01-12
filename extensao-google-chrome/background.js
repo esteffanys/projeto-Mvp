@@ -1,9 +1,9 @@
 
 consultaApi();
 
-this.document.getElementById('btnSalvar').addEventListener("click", salvar);
-this.document.getElementById('btnAdicionar').addEventListener("click", abrirCadastro);
-this.document.getElementById('btnCancelar').addEventListener("click", fecharCadastro);
+this.document.getElementById('btnPreço').addEventListener("click", salvar);
+this.document.getElementById('btnitens').addEventListener("click", abrirCadastro);
+// this.document.getElementById('btnCancelar').addEventListener("click", fecharCadastro);
 
 function consultaApi(){
     
