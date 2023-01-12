@@ -1,9 +1,9 @@
 
 consultaApi();
 
-this.document.getElementById('btnPreço').addEventListener("click", salvar);
+this.document.getElementById('Preço').addEventListener("click", salvar);
 this.document.getElementById('btnitens').addEventListener("click", abrirCadastro);
-// this.document.getElementById('btnCancelar').addEventListener("click", fecharCadastro);
+ this.document.getElementById('voltar').addEventListener("click", fecharCadastro);
 
 function consultaApi(){
     
@@ -105,7 +105,7 @@ function editarCadastro(){
 
 function fecharCadastro(){
 
-    document.getElementById('listagem').style.display = '';
+    document.getElementById('Filtragem').style.display = '';
     document.getElementById('cadastro').style.display = 'none';
     document.getElementById('btnExcluir').style.display = 'none';
 }
