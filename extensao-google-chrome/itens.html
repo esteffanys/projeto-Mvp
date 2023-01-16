@@ -8,10 +8,15 @@
     <title>Filtragem itens</title>
 </head>
 <body>
-    <p class="fridge_intro">Encontre uma receita pesquisando pelos ingredientes que você tem na sua casa.<br />
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Encontre uma receita pesquisando pelos ingredientes que você tem em casa</span>
+        </div>
+      </nav>
+
         <br />
-        Digite os ingredientes que você tem em casa e nós selecionaremos para você as receitas que mais se enquadram na sua busca.</p>
-                <form action="/ingredientes-que-tenho-na-geladeira.htm" method="post">
+       <p> Digite os ingredientes que você tem em casa e nós selecionaremos para você as receitas que mais se enquadram na sua busca.</p>
+                <form action="#" method="post">
                     
                         <p class="para_form_text spacer" id="input_fridge_1">
                     <label for="ingredient1">Ingrediente 1</label>
@@ -54,11 +59,16 @@
                     <input class="input_fridge" type="text" id="ingredient10" name="ingredient[10]" value="" />
                 </p>
                         <p class="para_form_submit">
-                    <button type="submit" class="button">OK</button>
+                            <button type="button" class= "btn btn-dark" onclick="res()">Buscar</button>
                 </p>
             </form>
-            <a class="btn btn-dark" type="button" href="index.html">voltar</a>
-
- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+            <a type="button" class= "btn btn-dark" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5z"/>
+</svg>
+                Voltar
+              </a>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+            <script src="index.js"></script>
+        </body>
 </html>
